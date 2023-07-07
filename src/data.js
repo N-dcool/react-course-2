@@ -1,20 +1,24 @@
+import img1 from "./images/image1.jpg";
+import img2 from "./images/image2.jpg";
+import img3 from "./images/image3.jpg";
+
 export const books = [
   {
     title: "Atomic Habits",
     author: "James Clear",
-    src: "https://images-eu.ssl-images-amazon.com/images/I/91bYsX41DVL._AC_UL900_SR900,600_.jpg",
+    src: img1,
     id: 1,
   },
   {
     title: "The Power of Habit",
     author: "Charles Duhigg",
-    src: "https://images-eu.ssl-images-amazon.com/images/I/71g2ednj0JL._AC_UL900_SR900,600_.jpg",
+    src: img2,
     id: 2,
   },
   {
     title: "The 7 Habits of Highly Effective People",
     author: "Stephen R. Covey",
-    src: "https://images-eu.ssl-images-amazon.com/images/I/814L+vq01mL._AC_UL900_SR900,600_.jpg",
+    src: img3,
     id: 3,
   },
 ];
